@@ -6,3 +6,8 @@
 var lambda = (byte count = 5) => $"The passed count is {count}";
 
 lambda();
+
+// ReSharper disable once EmptyNamespace
+namespace Core.Source.DefaultLambdaParameters
+{
+}
