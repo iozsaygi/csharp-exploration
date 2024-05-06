@@ -35,3 +35,9 @@ public readonly struct EntityEntry(int volume, string id)
     public readonly int Volume = volume;
     public readonly string Id = id;
 }
+
+// It was first introduced for records, but it's not restricted to records right now.
+public record EntityPair(string PairIdentity)
+{
+    public string PairIdentity = PairIdentity;
+}
