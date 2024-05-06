@@ -5,12 +5,12 @@ language.
 
 ## Included feature implementations
 
-- Primary constructors
-- Collection expressions
-- 'ref readonly' parameters
-- Default lambda parameters
-- Inline arrays
-- Experimental attribute
+- Primary constructors (C# 12)
+- Collection expressions (C# 12)
+- 'ref readonly' parameters (C# 12)
+- Default lambda parameters (C# 12)
+- Inline arrays (C# 12)
+- Experimental attribute (C# 12)
 
 ## License
 
