@@ -9,7 +9,7 @@ public class ByteRegistry
     // ReSharper disable once CollectionNeverQueried.Local
     private readonly HashSet<byte> storedBytes = [];
 
-    // Discuss if 'ref readonly' is the equivalent of 'const ptr' parameter in C/C++?
+    // TODO: Discuss if 'ref readonly' is the equivalent of 'const ptr' parameter in C/C++?
     public void Register(ref readonly byte value)
     {
         // The following line will throw a compilation error since we passed 'value' as readonly.
