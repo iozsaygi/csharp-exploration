@@ -11,6 +11,7 @@ language.
 - Default lambda parameters (C# 12)
 - Inline arrays (C# 12)
 - Experimental attribute (C# 12)
+- Records (C# 9)
 
 ## License
 
