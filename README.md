@@ -12,6 +12,7 @@ language.
 - Inline arrays (C# 12)
 - Experimental attribute (C# 12)
 - Records (C# 9)
+- 'init' only setters (C# 9)
 
 ## License
 
