@@ -35,3 +35,6 @@ Desktop.ini
 
 # Completely ignoring '.idea' folder
 .idea
+
+# Ignore generated 'DotSettings' file
+CSharpExploration.sln.DotSettings
