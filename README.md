@@ -13,6 +13,7 @@ language.
 - Experimental attribute (C# 12)
 - Records (C# 9)
 - 'init' only setters (C# 9)
+- BenchmarkDotNet (External library)
 
 ## License
 
