@@ -15,6 +15,7 @@ language.
 - 'init' only setters (C# 9)
 - BenchmarkDotNet (External library)
 - FrozenSet (.NET 8)
+- FrozenDictionary (.NET 8)
 
 ## License
 

@@ -1,6 +1,7 @@
 ﻿// An entry point for the project.
 
 using Core.Source.BenchmarkDotNet;
+using Core.Source.FrozenDictionary;
 using Core.Source.FrozenSet;
 using Core.Source.Records;
 
@@ -12,6 +13,7 @@ internal static class Program
     {
         // RecordsExploration.ExecuteFromMain();
         // BenchmarkDotNetExploration.ExecuteFromMain();
-        FrozenSetExploration.ExecuteFromMain();
+        // FrozenSetExploration.ExecuteFromMain();
+        FrozenDictionaryExploration.ExecuteFromMain();
     }
 }

@@ -4,6 +4,7 @@ using System.Collections.Frozen;
 
 namespace Core.Source.FrozenSet;
 
+// ReSharper disable once ClassNeverInstantiated.Global
 public class FrozenSetExploration
 {
     // ReSharper disable once UnusedMember.Global
