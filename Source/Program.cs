@@ -1,5 +1,6 @@
 ﻿// An entry point for the project.
 
+using Core.Source.Async;
 using Core.Source.BenchmarkDotNet;
 using Core.Source.FrozenDictionary;
 using Core.Source.FrozenSet;
@@ -14,6 +15,12 @@ internal static class Program
         // RecordsExploration.ExecuteFromMain();
         // BenchmarkDotNetExploration.ExecuteFromMain();
         // FrozenSetExploration.ExecuteFromMain();
-        FrozenDictionaryExploration.ExecuteFromMain();
+        // FrozenDictionaryExploration.ExecuteFromMain();
+
+        // var asyncWorker = new AsyncWorker();
+        // asyncWorker.ExecuteFromMain();
+
+        var taskWorker = new TaskWorker();
+        taskWorker.ExecuteFromMain();
     }
 }
