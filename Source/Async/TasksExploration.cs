@@ -4,8 +4,10 @@ public class TaskWorker
 {
     public async void ExecuteFromMain()
     {
-        await WorkAsync();
-        await AnotherWorkAsync();
+        var firstTask = WorkAsync();
+        var secondTask = AnotherWorkAsync();
+
+        await Task.WhenAll(firstTask, secondTask);
     }
 
     private async Task<int> WorkAsync()
