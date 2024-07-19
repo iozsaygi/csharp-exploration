@@ -42,7 +42,7 @@ public class TaskWorker
         return random.Next(1, 1000);
     }
 
-    public readonly struct SceneEntityData(int numberOfActiveEntities)
+    private readonly struct SceneEntityData(int numberOfActiveEntities)
     {
         public readonly int NumberOfActiveEntities = numberOfActiveEntities;
     }
