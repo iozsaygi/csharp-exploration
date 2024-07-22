@@ -10,7 +10,7 @@ namespace Core.Source;
 
 internal static class Program
 {
-    internal static void Main()
+    internal static async Task Main()
     {
         // RecordsExploration.ExecuteFromMain();
         // BenchmarkDotNetExploration.ExecuteFromMain();
@@ -20,7 +20,10 @@ internal static class Program
         // var asyncWorker = new AsyncWorker();
         // asyncWorker.ExecuteFromMain();
 
-        var taskWorker = new TaskWorker();
-        taskWorker.ExecuteFromMain();
+        // var taskWorker = new TaskWorker();
+        // taskWorker.ExecuteFromMain();
+
+        var cancellable = new Cancellable();
+        await cancellable.ExecuteFromMain();
     }
 }
