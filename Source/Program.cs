@@ -5,6 +5,7 @@ using Core.Source.BenchmarkDotNet;
 using Core.Source.FrozenDictionary;
 using Core.Source.FrozenSet;
 using Core.Source.Records;
+using Core.Source.Span;
 
 namespace Core.Source;
 
@@ -23,7 +24,9 @@ internal static class Program
         // var taskWorker = new TaskWorker();
         // taskWorker.ExecuteFromMain();
 
-        var cancellable = new Cancellable();
-        await cancellable.ExecuteFromMain();
+        // var cancellable = new Cancellable();
+        // await cancellable.ExecuteFromMain();
+
+        Console.WriteLine(SpanExploration.GetStringBetween(0, 2).Length);
     }
 }
