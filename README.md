@@ -17,6 +17,7 @@ language.
 - FrozenSet (.NET 8)
 - FrozenDictionary (.NET 8)
 - Async, await and Tasks (C# 5)
+- Span (C# 7.2)
 
 ## License
 
