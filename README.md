@@ -18,6 +18,7 @@ language.
 - FrozenDictionary (.NET 8)
 - Async, await and Tasks (C# 5)
 - Span (C# 7.2)
+- SortedList (C# 2.0)
 
 ## License
 
