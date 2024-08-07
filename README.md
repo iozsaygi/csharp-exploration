@@ -19,6 +19,7 @@ language.
 - Async, await and Tasks (C# 5)
 - Span (C# 7.2)
 - SortedList (C# 2.0)
+- SortedSet (C# 4.0)
 
 ## License
 

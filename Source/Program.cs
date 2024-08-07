@@ -6,6 +6,7 @@ using Core.Source.FrozenDictionary;
 using Core.Source.FrozenSet;
 using Core.Source.Records;
 using Core.Source.SortedList;
+using Core.Source.SortedSet;
 using Core.Source.Span;
 
 namespace Core.Source;
@@ -32,6 +33,9 @@ internal static class Program
 
         // SortedListExploration.BasicExample();
         // SortedListExploration.ExampleWithCustomType();
-        SortedListExploration.ExampleWithCustomTypeByProperty();
+        // SortedListExploration.ExampleWithCustomTypeByProperty();
+
+        // SortedSetExploration.BasicExample();
+        SortedSetExploration.ExampleWithCustomType();
     }
 }
